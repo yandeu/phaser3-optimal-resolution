@@ -1,0 +1,62 @@
+{
+	"textures": [
+		{
+			"image": "atlas-@3.5.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1185,
+				"h": 638
+			},
+			"scale": 0.875,
+			"frames": [
+				{
+					"filename": "zombie",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 475,
+						"h": 636
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 475,
+						"h": 636
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 475,
+						"h": 636
+					}
+				},
+				{
+					"filename": "robot",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 706,
+						"h": 634
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 706,
+						"h": 634
+					},
+					"frame": {
+						"x": 478,
+						"y": 1,
+						"w": 706,
+						"h": 634
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:791975818b9aa512127fceb3decc6fc1:fdcc2c75a495ab3ad8e2cf03395491a5:f073f1bd89ac645408f7835df9b124be$"
+	}
+}
