@@ -1,4 +1,4 @@
-import { assetsDPI } from './game.js'
+import { assetsDPR } from './game.js'
 import Sprite from './sprite.js'
 
 export default class MainScene extends Phaser.Scene {
@@ -7,13 +7,13 @@ export default class MainScene extends Phaser.Scene {
   }
 
   preload() {
-    this.load.atlas('atlas', `src/atlas/atlas-@${assetsDPI}.png`, `src/atlas/atlas-@${assetsDPI}.json`)
+    this.load.atlas('atlas', `src/atlas/atlas-@${assetsDPR}.png`, `src/atlas/atlas-@${assetsDPR}.json`)
   }
 
   create() {
     let { width, height } = this.cameras.main
-    width /= assetsDPI
-    height /= assetsDPI
+    width /= assetsDPR
+    height /= assetsDPR
 
     // these assets are from https://www.kenney.nl/assets/toon-characters-1
     const zombie = new Sprite(this, width / 3, height, 'atlas', 'zombie').setOrigin(0.5, 1)
