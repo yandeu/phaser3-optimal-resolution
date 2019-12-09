@@ -2,7 +2,11 @@ import MainScene from './mainScene.js'
 
 const roundHalf = num => Math.round(num * 2) / 2
 
-const DPR = window.devicePixelRatio
+// is the user not happy with 'best',
+// simply set the graphics to 'medium'
+// (maybe store the settings in LocalStorage)
+const graphicsSettings = { best: 1, medium: 0.75, low: 0.5 }
+const DPR = window.devicePixelRatio * graphicsSettings.best
 const { width, height } = window.screen
 
 // base resolution is 360x640 @4
